@@ -164,7 +164,7 @@ export default {
           } else {
             this.$message({
               type: "error",
-              message: res.msg
+              message: "无此年份数据"
             })
           }
           this.load() // 刷新表格的数据

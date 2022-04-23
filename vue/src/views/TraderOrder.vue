@@ -193,6 +193,7 @@
 import request from "../../utils/request";
 
 export default {
+
   name: "TraderOrder",
   components: {},
   data() {

@@ -52,7 +52,7 @@
         <template #default="scope">
           <el-button @click="handleEdit(scope.row)" size="small">编辑</el-button>
           <el-popconfirm
-              title="确定删除吗？" @confirm="handleDelete(scope.row.userId)" v-if="scope.row.urole!='sup_admin'"
+                title="确定删除吗？" @confirm="handleDelete(scope.row.userId)" v-if="scope.row.urole='user'"
           >
             <template #reference>
               <el-button type="danger" size="small">删除</el-button>

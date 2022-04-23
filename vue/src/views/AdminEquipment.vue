@@ -207,7 +207,7 @@ export default {
         }
       }).then(res=>{
         this.allEmType = res.data.records
-        this.totol = res.data.total
+        this.total = res.data.total
       })
     },
     handleOpenClose(row){
